@@ -39,9 +39,9 @@ while running:
     text_rect = text.get_rect(center=(screen_width // 2, 100))   
     screen.blit(text, text_rect)                                 
 
-    # Optional: Add your GitHub below it
+    
     github_text = font.render("github:hellooooooo208", True, (50, 50, 50))  
-    github_rect = github_text.get_rect(center=(screen_width // 2, 170))     # a bit lowe
+    github_rect = github_text.get_rect(center=(screen_width // 2, 170))    
     screen.blit(github_text, github_rect)
 
     pygame.display.flip()
@@ -49,3 +49,4 @@ while running:
 
 
 pygame.quit()
+
